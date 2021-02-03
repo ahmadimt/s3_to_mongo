@@ -1,0 +1,8 @@
+#S3 client 
+boto3==1.16.63
+
+#mongodb client
+pymongo==3.11.2
+
+#dns python, required for parsing mongo uri
+dnspython==2.1.0
