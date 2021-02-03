@@ -1,6 +1,6 @@
 # S3 to MongoDB
 
-A simple Python script to get json file from s3 bucket and write the data into MongoDB.
+A simple Python script to get json file from S3 bucket and write the data into MongoDB.
 
 ## Setup Python Dependencies
 
@@ -29,3 +29,6 @@ The following command activates the virtual environment
 Define the s3 connection properties and file names in `s3.ini` and Mongo properties in `mongo.ini` then run the below command
 
 `./app.py`
+
+## TODO
+* Add support to read CSV/TSV files from S3 and write data into Mongodb
